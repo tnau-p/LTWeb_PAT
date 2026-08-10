@@ -1,0 +1,14 @@
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\bin\Debug\net10.0\PatLesson01.exe
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\bin\Debug\net10.0\PatLesson01.deps.json
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\bin\Debug\net10.0\PatLesson01.runtimeconfig.json
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\bin\Debug\net10.0\PatLesson01.dll
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\bin\Debug\net10.0\PatLesson01.pdb
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\PatLesson01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\PatLesson01.AssemblyInfoInputs.cache
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\PatLesson01.AssemblyInfo.cs
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\PatLesson01.csproj.CoreCompileInputs.cache
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\PatLesson01.dll
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\refint\PatLesson01.dll
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\PatLesson01.pdb
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\PatLesson01.genruntimeconfig.cache
+D:\Study\Lập Trình Web\LTWeb_PAT\PatLesson01\PatLesson01\obj\Debug\net10.0\ref\PatLesson01.dll
