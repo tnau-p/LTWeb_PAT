@@ -1,7 +1,11 @@
-﻿using System.Data;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Data;
 
 namespace PatLesson01
-{
+{   
     internal class Program
     {
         static void Main(string[] args)
@@ -10,70 +14,56 @@ namespace PatLesson01
             string choise;
             List<Student> students = new List<Student>()
             {
-                new Student{masv="SV001",name="nguyen van b",email="vanb@gmail.com",phone="0444444444"},
-                new Student{masv="SV002",name="nguyen van a",email="vana@gmail.com",phone="03333333333"},
+                new Student{Masv="SV001", Name="Nguyen Van B", Email="vanb@gmail.com", Phone="0444444444", Dtb=8.5f, NganhHoc="IT", TrangThai=true},
+                new Student{Masv="SV002", Name="Nguyen Van A", Email="vana@gmail.com", Phone="03333333333", Dtb=7.0f, NganhHoc="IT", TrangThai=true},
             };
+
             do
             {
                 menu();
-                Console.Write("Ban chon chuc nang:");
+                Console.Write("Ban chon chuc nang: ");
                 choise = Console.ReadLine();
                 switch (choise)
                 {
                     case "1":
-                        // Them sinnh vien
                         ThemMoiSinhVien(students);
                         break;
                     case "2":
-                        // Hien thi
                         HienThiThongTin(students);
                         break;
-                    case"3":
-                        // Tim kiem theo ma
+                    case "3":
                         searchByID(students);
                         break;
                     case "4":
-                        //tim kiem theo ten
                         searchByName(students);
                         break;
                     case "5":
-                        // Cap nhat sinh vien
                         updateStudent(students);
                         break;
                     case "6":
-                        // Xoa sinh vien
                         deleteStudent(students);
-                        break;  
+                        break;
                     case "7":
-                        // Sap xep theo ho ten
                         sortByName(students);
                         break;
                     case "8":
-                        // Sap xep theo diem trung binh
                         sortByDtb(students);
                         break;
                     case "9":
-                        // Hien thi sinh vien co diem tu 8 tro len
                         studentHighScore(students);
                         break;
                     case "10":
-                        // Hien thi sinh vien co diem cao nhat
-                        studentHighestScore (students);
+                        studentHighestScore(students);
                         break;
                     case "11":
-                        // Tinh diem trung binh toan bo sinh vien
                         allStudentDtb(students);
                         break;
                     case "12":
-                        //thong ke sinh vien theo nganh
                         studentbyMajor(students);
                         break;
                     case "13":
-                        //thong ke sinh vien theo trang thai
                         studentbyStatus(students);
                         break;
-
-
                     case "14":
                         Console.WriteLine("Ban da ket thuc chuc nang");
                         break;
@@ -83,75 +73,163 @@ namespace PatLesson01
                 }
 
             } while (choise != "14");
-
         }
 
         static void menu()
         {
-            Console.WriteLine("===========CHUC NANG===========");
-            Console.WriteLine("1.\tThêm sinh viên.\r" +
-                "\n2.\tHiển thị danh sách.\r" +
-                "\n3.\tTìm sinh viên theo mã.\r" +
-                "\n4.\tTìm gần đúng theo họ tên.\r" +
-                "\n5.\tCập nhật sinh viên.\r" +
-                "\n6.\tXóa sinh viên.\r" +
-                "\n7.\tSắp xếp theo họ tên.\r" +
-                "\n8.\tSắp xếp theo điểm trung bình.\r" +
-                "\n9.\tHiển thị sinh viên có điểm từ 8 trở lên.\r" +
-                "\n10.\tHiển thị sinh viên có điểm cao nhất.\r" +
-                "\n11.\tTính điểm trung bình toàn bộ sinh viên.\r" +
-                "\n12.\tThống kê sinh viên theo ngành.\r" +
-                "\n13.\tThống kê sinh viên theo trạng thái.\r");
-
-            Console.WriteLine("14.\tThoat ");
+            Console.WriteLine("\n===========CHUC NANG===========");
+            Console.WriteLine("1.\tThêm sinh viên.\n" +
+                "2.\tHiển thị danh sách.\n" +
+                "3.\tTìm sinh viên theo mã.\n" +
+                "4.\tTìm gần đúng theo họ tên.\n" +
+                "5.\tCập nhật sinh viên.\n" +
+                "6.\tXóa sinh viên.\n" +
+                "7.\tSắp xếp theo họ tên.\n" +
+                "8.\tSắp xếp theo điểm trung bình.\n" +
+                "9.\tHiển thị sinh viên có điểm từ 8 trở lên.\n" +
+                "10.\tHiển thị sinh viên có điểm cao nhất.\n" +
+                "11.\tTính điểm trung bình toàn bộ sinh viên.\n" +
+                "12.\tThống kê sinh viên theo ngành.\n" +
+                "13.\tThống kê sinh viên theo trạng thái.\n" +
+                "14.\tThoat");
         }
+
+        static string ReadValidMaSV(List<Student> students, string currentMaSV = null)
+        {
+            while (true)
+            {
+                Console.Write("Ma sv: ");
+                string masv = Console.ReadLine()?.Trim();
+
+                if (string.IsNullOrWhiteSpace(masv))
+                {
+                    Console.WriteLine("Loi: Ma sinh vien khong duoc de rong!");
+                    continue;
+                }
+
+                bool isDuplicate = students.Any(s => s.Masv.Equals(masv, StringComparison.OrdinalIgnoreCase)
+                                                     && s.Masv != currentMaSV);
+                if (isDuplicate)
+                {
+                    Console.WriteLine("Loi: Ma sinh vien da ton tai!");
+                    continue;
+                }
+
+                return masv;
+            }
+        }
+
+        static string ReadValidName()
+        {
+            while (true)
+            {
+                Console.Write("Tên sv: ");
+                string name = Console.ReadLine()?.Trim();
+
+                if (string.IsNullOrWhiteSpace(name))
+                {
+                    Console.WriteLine("Loi: Ho ten khong duoc de rong!");
+                    continue;
+                }
+
+                return name;
+            }
+        }
+
+        static float ReadValidDTB()
+        {
+            while (true)
+            {
+                Console.Write("Diem trung binh (0 - 10): ");
+                if (float.TryParse(Console.ReadLine(), out float dtb) && dtb >= 0 && dtb <= 10)
+                {
+                    return dtb;
+                }
+                Console.WriteLine("Loi: Diem trung binh phai la so nam trong khoang tu 0 den 10!");
+            }
+        }
+
+        static string ReadValidEmail()
+        {
+            string pattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+            while (true)
+            {
+                Console.Write("Email: ");
+                string email = Console.ReadLine()?.Trim();
+
+                if (!string.IsNullOrWhiteSpace(email) && Regex.IsMatch(email, pattern))
+                {
+                    return email;
+                }
+                Console.WriteLine("Loi: Email khong dung dinh dang!");
+            }
+        }
+
+        static DateTime ReadValidDate()
+        {
+            while (true)
+            {
+                Console.Write("Ngay sinh (dd/MM/yyyy): ");
+                if (DateTime.TryParse(Console.ReadLine(), out DateTime date))
+                {
+                    return date;
+                }
+                Console.WriteLine("Loi: Ngay sinh khong dung dinh dang!");
+            }
+        }
+
+        static void ThemMoiSinhVien(List<Student> students)
+        {
+            Console.WriteLine("--- Nhap thong tin sinh vien ---");
+            Student student = new Student();
+
+            student.Masv = ReadValidMaSV(students);
+            student.Name = ReadValidName();
+            student.DateTime = ReadValidDate();
+
+            Console.Write("Gioi tinh (1: Nam, 0: Nu): ");
+            student.Sex = Console.ReadLine() == "1";
+
+            student.Email = ReadValidEmail();
+
+            Console.Write("Số điện thoại: ");
+            student.Phone = Console.ReadLine();
+
+            Console.Write("Nganh hoc: ");
+            student.NganhHoc = Console.ReadLine();
+
+            student.Dtb = ReadValidDTB();
+
+            Console.Write("Trang thai (1: Dang hoc, 0: Nghi hoc): ");
+            student.TrangThai = Console.ReadLine() == "1";
+
+            students.Add(student);
+            Console.WriteLine("Thêm sinh viên thành công!");
+        }
+
         static void HienThiThongTin(List<Student> students)
         {
-            Console.WriteLine("Danh sach sinh vien");
+            Console.WriteLine("--- Danh sach sinh vien ---");
+            if (!students.Any())
+            {
+                Console.WriteLine("Danh sach trong.");
+                return;
+            }
             foreach (var item in students)
             {
-                Console.WriteLine("Mã sinh viên:" + item.masv);
-                Console.WriteLine("Họ và tên:" + item.name);
+                Console.WriteLine($"Mã SV: {item.Masv} | Họ tên: {item.Name} | ĐTB: {item.Dtb} | Email: {item.Email} | Ngành: {item.NganhHoc}");
                 Console.WriteLine("--------------------------");
             }
         }
-        static void ThemMoiSinhVien(List<Student> students)
-        {
-            Console.WriteLine("Nhap thong tin sinh vien");
-            Student student = new Student();
-            Console.Write("Ma sv:");
-            student.masv = Console.ReadLine();
-            Console.Write("Tên sv:");
-            student.name = Console.ReadLine();
-            Console.Write("Ngay sinh:");
-            student.dateTime = DateTime.Parse(Console.ReadLine());
 
-            Console.Write("gioi tinh:");
-            student.sex = Console.ReadLine() == "1" ? true : false;
-            Console.Write("Email:");
-            student.email = Console.ReadLine();
-            Console.Write("Số điện thoại:");
-            student.phone = Console.ReadLine();
-
-            Console.Write("Nganh hoc:");
-            student.nganhHoc = Console.ReadLine();
-            Console.Write("Diem trung binh:");
-            student.dtb = float.Parse(Console.ReadLine());
-            Console.Write("Trang thai:");
-            student.trangThai = Console.ReadLine() == "1" ? true : false;
-
-            students.Add(student);
-
-        }
         static void searchByID(List<Student> students)
         {
-            Console.Write("Nhap ma sinh vien can tim:");
+            Console.Write("Nhap ma sinh vien can tim: ");
             string masv = Console.ReadLine();
-            var student = students.FirstOrDefault(s => s.masv != null && s.masv.Equals(masv, StringComparison.OrdinalIgnoreCase));
+            var student = students.FirstOrDefault(s => s.Masv != null && s.Masv.Equals(masv, StringComparison.OrdinalIgnoreCase));
             if (student != null)
             {
-                Console.WriteLine("Mã sinh viên:" + student.masv);
-                Console.WriteLine("Họ và tên:" + student.name);
+                Console.WriteLine($"Mã SV: {student.Masv} | Họ tên: {student.Name} | Email: {student.Email}");
                 Console.WriteLine("--------------------------");
             }
             else
@@ -159,106 +237,110 @@ namespace PatLesson01
                 Console.WriteLine("Khong tim thay sinh vien co ma " + masv);
             }
         }
+
         static void searchByName(List<Student> students)
         {
-            Console.Write("Nhap ten sinh vien can tim:");
+            Console.Write("Nhap ten sinh vien can tim: ");
             string name = Console.ReadLine();
-            var student = students.Where(s => s.name != null && s.name.Contains(name, StringComparison.OrdinalIgnoreCase));
-            if (student.Any())
+            var studentList = students.Where(s => s.Name != null && s.Name.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+            if (studentList.Any())
             {
-                foreach(var s in student)
+                foreach (var s in studentList)
                 {
-                    Console.WriteLine("Mã sinh viên:" + s.masv);
-                    Console.WriteLine("Họ và tên:" + s.name);
+                    Console.WriteLine($"Mã SV: {s.Masv} | Họ tên: {s.Name}");
                     Console.WriteLine("--------------------------");
                 }
-                    
             }
             else
             {
                 Console.WriteLine("Khong tim thay sinh vien co ten " + name);
             }
         }
+
         static void updateStudent(List<Student> students)
         {
-            Console.WriteLine("Nhap ma sinh vien can cap nhat:");
+            Console.Write("Nhap ma sinh vien can cap nhat: ");
             string masv = Console.ReadLine();
-            var student = students.FirstOrDefault(
-                s => s.masv != null && s.masv.Equals(masv, StringComparison.OrdinalIgnoreCase));
+
+            var student = students.FirstOrDefault(s => s.Masv != null && s.Masv.Equals(masv, StringComparison.OrdinalIgnoreCase));
             if (student == null)
             {
                 Console.WriteLine("Khong tim thay sinh vien co ma " + masv);
                 return;
             }
+
             string choiseup;
             do
             {
-                Console.WriteLine("======Chon thong tin sinh vien can cap nhat=====");
+                Console.WriteLine("\n====== Chon thong tin sinh vien can cap nhat =====");
                 menu1();
                 Console.Write("Ban chon: ");
                 choiseup = Console.ReadLine();
-                switch(choiseup)
+                switch (choiseup)
                 {
                     case "1":
-                        Console.WriteLine("Nhap ma sinh vien moi:");
-                        student.masv = Console.ReadLine();
+                        student.Masv = ReadValidMaSV(students, student.Masv);
                         break;
                     case "2":
-                        Console.WriteLine("Nhap ten sinh vien moi:");
-                        student.name = Console.ReadLine();
+                        student.Name = ReadValidName();
                         break;
                     case "3":
-                        Console.WriteLine("Nhap gioi tinh moi (1: Nam, 0: Nu):");
-                        student.sex = Console.ReadLine() == "1";
+                        Console.Write("Nhap gioi tinh moi (1: Nam, 0: Nu): ");
+                        student.Sex = Console.ReadLine() == "1";
                         break;
                     case "4":
-                        Console.WriteLine("Nhap email moi:");
-                        student.email = Console.ReadLine();
+                        student.Email = ReadValidEmail();
                         break;
                     case "5":
-                        Console.WriteLine("Nhap so dien thoai moi:");
-                        student.phone = Console.ReadLine();
+                        Console.Write("Nhap so dien thoai moi: ");
+                        student.Phone = Console.ReadLine();
                         break;
-                    case "6":   
-                        Console.WriteLine("Nhap nganh hoc moi:");
-                        student.nganhHoc = Console.ReadLine();
+                    case "6":
+                        Console.Write("Nhap nganh hoc moi: ");
+                        student.NganhHoc = Console.ReadLine();
                         break;
                     case "7":
-                        Console.WriteLine("Nhap trang thai moi (1: Dang hoc, 0: Nghỉ học):");
-                        student.trangThai = Console.ReadLine() == "1";
+                        Console.Write("Nhap trang thai moi (1: Dang hoc, 0: Nghi hoc): ");
+                        student.TrangThai = Console.ReadLine() == "1";
                         break;
                     case "8":
-                        Console.WriteLine("Nhap ngay sinh moi:");
-                        student.dateTime = DateTime.Parse(Console.ReadLine());
+                        student.DateTime = ReadValidDate();
                         break;
                     case "9":
-                        Console.WriteLine("Thoat.");
+                        student.Dtb = ReadValidDTB();
+                        break;
+                    case "10":
+                        Console.WriteLine("Thoat cap nhat.");
                         break;
                     default:
                         Console.WriteLine("Ban chon sai chuc nang");
                         break;
                 }
 
-            } while(choiseup != "9");
+            } while (choiseup != "10");
         }
+
         static void menu1()
         {
-            Console.WriteLine("1.\tCập nhật mã sinh viên.\r" +
-                "\n2.\tCập nhật họ tên.\r" +
-                "\n3.\tCập nhật giới tính.\r" +
-                "\n4.\tCập nhật email.\r" +
-                "\n5.\tCập nhật số điện thoại.\r" +
-                "\n6.\tCập nhật ngành học.\r" +
-                "\n7.\tCập nhật trạng thái.\r" +
-                "\n8.\tCập nhật ngày sinh.\r");
-            Console.WriteLine("9.\tThoat.");
+            Console.WriteLine("1.\tCập nhật mã sinh viên.\n" +
+                "2.\tCập nhật họ tên.\n" +
+                "3.\tCập nhật giới tính.\n" +
+                "4.\tCập nhật email.\n" +
+                "5.\tCập nhật số điện thoại.\n" +
+                "6.\tCập nhật ngành học.\n" +
+                "7.\tCập nhật trạng thái.\n" +
+                "8.\tCập nhật ngày sinh.\n" +
+                "9.\tCập nhật điểm trung bình.\n" +
+                "10.\tThoát.");
         }
+
         static void deleteStudent(List<Student> students)
         {
-            Console.WriteLine("Nhap ma sinh vien can xoa:");
+            Console.Write("Nhap ma sinh vien can xoa: ");
             string masv = Console.ReadLine();
-            var student = students.FirstOrDefault(
-                s => s.masv != null && s.masv.Equals(masv, StringComparison.OrdinalIgnoreCase));
+
+            // Quy tắc: Chỉ được xóa khi sinh viên tồn tại
+            var student = students.FirstOrDefault(s => s.Masv != null && s.Masv.Equals(masv, StringComparison.OrdinalIgnoreCase));
             if (student == null)
             {
                 Console.WriteLine("Khong tim thay sinh vien co ma " + masv);
@@ -267,76 +349,74 @@ namespace PatLesson01
             students.Remove(student);
             Console.WriteLine("Da xoa sinh vien co ma " + masv);
         }
+
         static void sortByName(List<Student> students)
         {
-            var sortedStudents = students.OrderBy(s => s.name).ToList();
+            var sortedStudents = students.OrderBy(s => s.Name).ToList();
             Console.WriteLine("Danh sach sinh vien sau khi sap xep theo ho ten:");
             foreach (var student in sortedStudents)
             {
-                Console.WriteLine("Mã sinh viên:" + student.masv);
-                Console.WriteLine("Họ và tên:" + student.name);
-                Console.WriteLine("--------------------------");
+                Console.WriteLine($"Mã SV: {student.Masv} | Họ tên: {student.Name}");
             }
         }
+
         static void sortByDtb(List<Student> students)
         {
-            var sortedStudents = students.OrderByDescending(s => s.dtb).ToList();
+            var sortedStudents = students.OrderByDescending(s => s.Dtb).ToList();
             Console.WriteLine("Danh sach sinh vien sau khi sap xep theo diem trung binh:");
             foreach (var student in sortedStudents)
             {
-                Console.WriteLine("Mã sinh viên:" + student.masv);
-                Console.WriteLine("Họ và tên:" + student.name);
-                Console.WriteLine("Diem trung binh:" + student.dtb);
-                Console.WriteLine("--------------------------");
+                Console.WriteLine($"Mã SV: {student.Masv} | Họ tên: {student.Name} | Điểm TB: {student.Dtb}");
             }
         }
+
         static void studentHighScore(List<Student> students)
         {
-            var highScoreStudents = students.Where(s => s.dtb >= 8).ToList();
+            var highScoreStudents = students.Where(s => s.Dtb >= 8).ToList();
             Console.WriteLine("Danh sach sinh vien co diem tu 8 tro len:");
             foreach (var student in highScoreStudents)
             {
-                Console.WriteLine("Mã sinh viên:" + student.masv);
-                Console.WriteLine("Họ và tên:" + student.name);
-                Console.WriteLine("Diem trung binh:" + student.dtb);
-                Console.WriteLine("--------------------------");
+                Console.WriteLine($"Mã SV: {student.Masv} | Họ tên: {student.Name} | Điểm TB: {student.Dtb}");
             }
         }
+
         static void studentHighestScore(List<Student> students)
         {
-            var highestScore = students.Max(s => s.dtb);
-            var highestScoreStudents = students.Where(s => s.dtb == highestScore).ToList();
+            if (!students.Any()) return;
+            float highestScore = students.Max(s => s.Dtb);
+            var highestScoreStudents = students.Where(s => s.Dtb == highestScore).ToList();
             Console.WriteLine("Danh sach sinh vien co diem cao nhat:");
             foreach (var student in highestScoreStudents)
             {
-                Console.WriteLine("Mã sinh viên:" + student.masv);
-                Console.WriteLine("Họ và tên:" + student.name);
-                Console.WriteLine("Diem trung binh:" + student.dtb);
-                Console.WriteLine("--------------------------");
+                Console.WriteLine($"Mã SV: {student.Masv} | Họ tên: {student.Name} | Điểm TB: {student.Dtb}");
             }
         }
+
         static void allStudentDtb(List<Student> students)
         {
-            float averageDtb = students.Any() ? students.Average(s => s.dtb) : 0f;
+            float averageDtb = students.Any() ? students.Average(s => s.Dtb) : 0f;
             Console.WriteLine("Diem trung binh toan bo sinh vien: " + averageDtb);
         }
+
         static void studentbyMajor(List<Student> students)
         {
-            var majorGroups = students.GroupBy(s => s.nganhHoc);
+            var majorGroups = students.GroupBy(s => s.NganhHoc);
             Console.WriteLine("Thong ke sinh vien theo nganh:");
             foreach (var group in majorGroups)
             {
-                Console.WriteLine("Nganh: " + group.Key + ", So luong sinh vien: " + group.Count());
+                Console.WriteLine("Nganh: " + (string.IsNullOrEmpty(group.Key) ? "Chua xac dinh" : group.Key) + ", So luong: " + group.Count());
             }
         }
+
         static void studentbyStatus(List<Student> students)
         {
-            var statusGroups = students.GroupBy(s => s.trangThai);
+            var statusGroups = students.GroupBy(s => s.TrangThai);
             Console.WriteLine("Thong ke sinh vien theo trang thai:");
             foreach (var group in statusGroups)
             {
-                Console.WriteLine("Trang thai: " + group.Key + ", So luong sinh vien: " + group.Count());
+                string statusStr = group.Key ? "Dang hoc" : "Nghi hoc";
+                Console.WriteLine("Trang thai: " + statusStr + ", So luong: " + group.Count());
             }
-
         }
+    }
 }

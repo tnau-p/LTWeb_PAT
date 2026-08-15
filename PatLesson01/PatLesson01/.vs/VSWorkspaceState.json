@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\obj"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\PatLesson01.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB5729C-8DA5-B91C-551E-502E4AC0113B}|PatLesson01\\PatLesson01.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson01\\patlesson01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB5729C-8DA5-B91C-551E-502E4AC0113B}|PatLesson01\\PatLesson01.csproj|solutionrelative:patlesson01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FB5729C-8DA5-B91C-551E-502E4AC0113B}|PatLesson01\\PatLesson01.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson01\\patlesson01\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FB5729C-8DA5-B91C-551E-502E4AC0113B}|PatLesson01\\PatLesson01.csproj|solutionrelative:patlesson01\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson01\\PatLesson01\\Program.cs",
+              "RelativeDocumentMoniker": "PatLesson01\\Program.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson01\\PatLesson01\\Program.cs",
+              "RelativeToolTip": "PatLesson01\\Program.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwFwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T14:40:58.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson01\\PatLesson01\\Student.cs",
+              "RelativeDocumentMoniker": "PatLesson01\\Student.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson01\\PatLesson01\\Student.cs",
+              "RelativeToolTip": "PatLesson01\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T14:42:09.633Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

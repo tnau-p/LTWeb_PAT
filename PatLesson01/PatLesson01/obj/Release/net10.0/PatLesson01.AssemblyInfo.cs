@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatLesson01")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df9ea11e1263168a0ae5ea74a72616ead11e2ea8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1db1891365dc6b89bec1cf75c1d188c8f0201b6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatLesson01")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatLesson01")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

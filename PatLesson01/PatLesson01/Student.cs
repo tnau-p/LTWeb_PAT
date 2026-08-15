@@ -11,19 +11,20 @@ namespace PatLesson01
     /// Class: Student
     /// Author: Tnau-p
     /// </summary>
-    internal class Student
+    public class Student
     {
         //properties
-        public string masv {  get; set; }
-        public string name { get; set; }
-        public DateTime? dateTime { get; set; }
+        public string Masv { get; set; }
+        public string Name { get; set; }
+        public DateTime? DateTime { get; set; }
 
-        public bool sex { get; set; }
-        public string email { get; set; }
-        public string phone { get; set; }
+        public bool Sex { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
 
-        public string nganhHoc  { get; set; }
-        public float dtb { get; set; }
-        public bool trangThai { get; set; }
+        public string NganhHoc { get; set; }
+        public float Dtb { get; set; }
+        public bool TrangThai { get; set; }
+    }
 
 }
