@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PatLesson02MVC/1.0.0": {
+        "runtime": {
+          "PatLesson02MVC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PatLesson02MVC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

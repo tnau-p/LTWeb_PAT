@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PatLesson02/PatLesson02.csproj" />
+  <Project Path="PatLesson02MVC/PatLesson02MVC.csproj" Id="8dc95304-0112-470c-b3cc-16f080f43ad7" />
+</Solution>
