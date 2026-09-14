@@ -1,0 +1,36 @@
+@model IEnumerable<PatLesson02MVC.Models.Product>
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+}
+
+<h2 class="mb-4">Quản lý sản phẩm</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width:30px">ID</th>
+            <th>Name</th>
+            <th style="width:150px" class="text-end">Price</th>
+            <th style="width:140px">Created At</th>
+            <th style="width:140px" class="text-center">Image</th>
+            <th style="width:140px" class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td class="text-end">@String.Format("{0:N0} đ", item.Price)</td>
+            <td>@item.CreatedAt.ToString("dd-MM-yyyy")</td>
+            <td class="text-center">
+                <img src="@item.ImageUrl" alt="@item.Name" style="height:50px; object-fit:contain;" />
+            </td>
+            <td class="text-center">
+                <a class="btn btn-success btn-sm" asp-action="Details" asp-route-id="@item.Id">View</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

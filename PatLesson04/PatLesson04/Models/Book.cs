@@ -1,0 +1,63 @@
+﻿using System.Linq;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
+
+namespace PatLesson04.Models
+{
+    public class Book
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public int AuthorId {  get; set; }
+        public int GenreId { get; set; }
+        public string Image {  get; set; }
+        public float Price { get; set; }
+        public int TotalPage { get; set; }
+        public string Sumary { get; set; }
+        //danh sach cac cuon sach 
+        public List<Book> GetBookList()
+        {
+            List<Book> books = new List<Book>()
+            {
+                new Book()
+                {
+                    Id= 1,
+                    Title= "Chi Pheo",
+                    AuthorId = 1,
+                    GenreId = 1,
+                    Image = "/images/products/",
+                    Price = 50000,
+                    Sumary =  "",
+                    TotalPage = 250
+
+                },
+                new Book(),
+            };
+            return books;
+        }
+        //chi tiet mot cuon sach theo id
+        public Book GetBookById(int id)
+        {
+            Book book = this.GetBookList().FirstOrDefault(b => b.Id == id);
+            return book;
+        }
+        //selectlistitem authors
+        public List<SelectListItem> Authors { get; } = new List<SelectListItem>
+        {
+            new SelectListItem{Value = "1" , Text = "Nam Cao"},
+            new SelectListItem{Value = "2" , Text = "Ngo Tat To"},
+            new SelectListItem{Value = "3" , Text = "Adamkhoom"},
+            new SelectListItem{Value = "4" , Text = "Thien Su Thich Nhat Hanh"}
+
+        };
+        //selectlistitem genres
+        public List<SelectListItem> Genres { get; } = new List<SelectListItem>
+        {
+            new SelectListItem{Value = "1" , Text = "Truyen tranh"},
+            new SelectListItem{Value = "2" , Text = "Van Hoc Duong Dai"},
+            new SelectListItem{Value = "3" , Text = "Phat Hoc Pho Thong"},
+            new SelectListItem{Value = "4" , Text = "Truyen Cuoi"}
+        };
+    }
+}

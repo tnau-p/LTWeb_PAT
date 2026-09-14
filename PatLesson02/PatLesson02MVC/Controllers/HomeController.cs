@@ -8,7 +8,15 @@ namespace PatLesson02MVC.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var products = new List<Models.Product>
+            {
+                new Models.Product { Id = 1, Name = "Product Name 1", Price = 500000, CreatedAt = new DateTime(2020,12,25), ImageUrl = "https://tse4.mm.bing.net/th/id/OIP.EzWiXUC-NRygKbxYFYLFSgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
+                new Models.Product { Id = 2, Name = "Product Name 2", Price = 700000, CreatedAt = new DateTime(2020,12,25), ImageUrl = "https://tse4.mm.bing.net/th/id/OIP.EzWiXUC-NRygKbxYFYLFSgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
+                new Models.Product { Id = 3, Name = "Product Name 3", Price = 550000, CreatedAt = new DateTime(2020,12,25), ImageUrl = "https://tse4.mm.bing.net/th/id/OIP.EzWiXUC-NRygKbxYFYLFSgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
+                new Models.Product { Id = 4, Name = "Product Name 4", Price = 550000, CreatedAt = new DateTime(2020,12,25), ImageUrl = "https://tse4.mm.bing.net/th/id/OIP.EzWiXUC-NRygKbxYFYLFSgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" }
+            };
+
+            return View(products);
         }
 
         public IActionResult Privacy()
