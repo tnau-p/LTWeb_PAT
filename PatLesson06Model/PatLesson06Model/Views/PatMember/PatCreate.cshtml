@@ -1,0 +1,48 @@
+@model PatLesson06Model.Models.PatMember
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>PatMember</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="PatCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="PatMemberUserName" class="control-label"></label>
+                <input asp-for="PatMemberUserName" class="form-control" />
+                <span asp-validation-for="PatMemberUserName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PatMemberPassword" class="control-label"></label>
+                <input asp-for="PatMemberPassword" class="form-control" />
+                <span asp-validation-for="PatMemberPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PatMemberFullName" class="control-label"></label>
+                <input asp-for="PatMemberFullName" class="form-control" />
+                <span asp-validation-for="PatMemberFullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PatMemberEmail" class="control-label"></label>
+                <input asp-for="PatMemberEmail" class="form-control" />
+                <span asp-validation-for="PatMemberEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

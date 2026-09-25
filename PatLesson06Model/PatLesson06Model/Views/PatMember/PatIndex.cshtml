@@ -1,0 +1,53 @@
+@model IEnumerable<PatLesson06Model.Models.PatMember>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="PatCreate">Create New</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PatMemberUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatMemberPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatMemberFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatMemberEmail)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.PatMemberUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.PatMemberPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.PatMemberFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.PatMemberEmail)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PatMemberId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PatMemberId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PatMemberId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

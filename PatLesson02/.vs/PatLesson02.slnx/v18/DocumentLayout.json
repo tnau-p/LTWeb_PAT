@@ -11,14 +11,6 @@
       "RelativeMoniker": "D:0:0:{8DC95304-0112-470C-B3CC-16F080F43AD7}|PatLesson02MVC\\PatLesson02MVC.csproj|solutionrelative:patlesson02mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DC95304-0112-470C-B3CC-16F080F43AD7}|PatLesson02MVC\\PatLesson02MVC.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson02\\patlesson02mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8DC95304-0112-470C-B3CC-16F080F43AD7}|PatLesson02MVC\\PatLesson02MVC.csproj|solutionrelative:patlesson02mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DC95304-0112-470C-B3CC-16F080F43AD7}|PatLesson02MVC\\PatLesson02MVC.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson02\\patlesson02mvc\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8DC95304-0112-470C-B3CC-16F080F43AD7}|PatLesson02MVC\\PatLesson02MVC.csproj|solutionrelative:patlesson02mvc\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8DC95304-0112-470C-B3CC-16F080F43AD7}|PatLesson02MVC\\PatLesson02MVC.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson02\\patlesson02mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8DC95304-0112-470C-B3CC-16F080F43AD7}|PatLesson02MVC\\PatLesson02MVC.csproj|solutionrelative:patlesson02mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -46,11 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
@@ -60,40 +56,14 @@
               "RelativeDocumentMoniker": "PatLesson02MVC\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PatLesson02MVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAADmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAADmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-21T13:34:04.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PatLesson02MVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PatLesson02MVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAACQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-21T11:55:32.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "PatLesson02MVC\\Views\\Product\\Details.cshtml",
-              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "PatLesson02MVC\\Views\\Product\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-21T11:43:13.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "PatLesson02MVC\\Views\\Product\\Index.cshtml",
@@ -101,8 +71,7 @@
               "RelativeToolTip": "PatLesson02MVC\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-21T11:43:03.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T11:43:03.715Z"
             },
             {
               "$type": "Document",
@@ -114,12 +83,11 @@
               "RelativeToolTip": "PatLesson02MVC\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T11:42:54.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T11:42:54.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Models\\Product.cs",
               "RelativeDocumentMoniker": "PatLesson02MVC\\Models\\Product.cs",
@@ -127,12 +95,11 @@
               "RelativeToolTip": "PatLesson02MVC\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T11:42:39.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T11:42:39.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PatLesson02MVC\\Views\\Shared\\_Layout.cshtml",
@@ -140,12 +107,11 @@
               "RelativeToolTip": "PatLesson02MVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAB0AAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-21T11:11:47.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T11:11:47.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Views\\Demo\\Index.cshtml",
               "RelativeDocumentMoniker": "PatLesson02MVC\\Views\\Demo\\Index.cshtml",
@@ -153,12 +119,11 @@
               "RelativeToolTip": "PatLesson02MVC\\Views\\Demo\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-21T11:10:23.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T11:10:23.243Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "DemoController.cs",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson02\\PatLesson02MVC\\Controllers\\DemoController.cs",
               "RelativeDocumentMoniker": "PatLesson02MVC\\Controllers\\DemoController.cs",
@@ -166,8 +131,7 @@
               "RelativeToolTip": "PatLesson02MVC\\Controllers\\DemoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T11:09:15.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T11:09:15.081Z"
             }
           ]
         }
