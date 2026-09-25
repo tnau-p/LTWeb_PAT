@@ -1,43 +1,40 @@
 @model PatLesson06Model.Models.PatMember
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
 
-<h1>Create</h1>
+<h1>Edit</h1>
 
 <h4>PatMember</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="PatCreate">
+        <form asp-action="PatEdit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
+            <input type="hidden" asp-for="PatMemberId" />
             <div class="form-group">
                 <label asp-for="PatMemberUserName" class="control-label"></label>
                 <input asp-for="PatMemberUserName" class="form-control" />
                 <span asp-validation-for="PatMemberUserName" class="text-danger"></span>
             </div>
-
             <div class="form-group">
                 <label asp-for="PatMemberPassword" class="control-label"></label>
                 <input asp-for="PatMemberPassword" class="form-control" />
                 <span asp-validation-for="PatMemberPassword" class="text-danger"></span>
             </div>
-
             <div class="form-group">
                 <label asp-for="PatMemberFullName" class="control-label"></label>
                 <input asp-for="PatMemberFullName" class="form-control" />
                 <span asp-validation-for="PatMemberFullName" class="text-danger"></span>
             </div>
-
             <div class="form-group">
                 <label asp-for="PatMemberEmail" class="control-label"></label>
                 <input asp-for="PatMemberEmail" class="form-control" />
                 <span asp-validation-for="PatMemberEmail" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
@@ -46,3 +43,7 @@
 <div>
     <a asp-action="PatIndex">Back to List</a>
 </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

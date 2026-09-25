@@ -65,7 +65,7 @@ namespace PatLesson06Model.Controllers
         /// create 
         /// </summary>
         /// <returns></returns>
-        public IActionResult Patcreate()
+        public IActionResult PatCreate()
         {
             return View();
         }
@@ -80,6 +80,59 @@ namespace PatLesson06Model.Controllers
             _patMembers.Add(patMember);
             return RedirectToAction(nameof(PatIndex));
         }
+        /// <summary>
+        /// edit
+        /// </summary>
+        /// <returns></returns>
+        /// 
+        public IActionResult PatEdit(string id)
+        {
+            var patMember = _patMembers.FirstOrDefault(x => x.PatMemberId.Equals(id) == true);
+            return View(patMember);
+        }
+        /// <summary>
+        /// PatEdit - submit form 
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public IActionResult PatEdit(string id,PatMember patMember)
+        {
+            for (int i = 0; i < _patMembers.Count; i++)
+            {
+                if (_patMembers[i].PatMemberId == id)
+                {
+                    _patMembers[i].PatMemberId = patMember.PatMemberId;
+                    _patMembers[i].PatMemberUserName = patMember.PatMemberUserName;
+                    _patMembers[i].PatMemberPassword = patMember.PatMemberPassword;
+                    _patMembers[i].PatMemberFullName = patMember.PatMemberFullName;
+                    _patMembers[i].PatMemberEmail = patMember.PatMemberEmail;
+                    break;
+                }
+            }
+            return RedirectToAction(nameof(PatIndex));
+        }
+
+        /// <summary>
+        /// delete  
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult PatDelete(string id)
+        {
+            var patMember = _patMembers.FirstOrDefault(x => x.PatMemberId.Equals(id) == true);
+            return View(patMember);
+        }
+        /// <summary>
+        /// delete - submit form
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public IActionResult PatDelete(string id, PatMember patMember)
+        {
+            var patMemberDelete = _patMembers.FirstOrDefault(x => x.PatMemberId.Equals(id) == true);
+            _patMembers.Remove(patMemberDelete);
+            return RedirectToAction(nameof(PatIndex));
+        }
+
         public IActionResult PatGetDetails()
         {
             var patMember = new PatMember() { 

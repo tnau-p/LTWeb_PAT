@@ -39,6 +39,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0TWVtYmVyXFBhdENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Study/Năm 3 Kỳ 1/Lập Trình Web/LTWeb_PAT/PatLesson06Model/PatLesson06Model/Views/PatMember/PatDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0TWVtYmVyXFBhdERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study/Năm 3 Kỳ 1/Lập Trình Web/LTWeb_PAT/PatLesson06Model/PatLesson06Model/Views/PatMember/PatEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0TWVtYmVyXFBhdEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Study/Năm 3 Kỳ 1/Lập Trình Web/LTWeb_PAT/PatLesson06Model/PatLesson06Model/Views/PatMember/PatGetDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0TWVtYmVyXFBhdEdldERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
