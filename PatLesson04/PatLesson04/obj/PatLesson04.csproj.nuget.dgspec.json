@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\Patlesson04\\PatLesson04\\PatLesson04.csproj": {}
+    "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\PatLesson04\\PatLesson04\\PatLesson04.csproj": {}
   },
   "projects": {
-    "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\Patlesson04\\PatLesson04\\PatLesson04.csproj": {
+    "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\PatLesson04\\PatLesson04\\PatLesson04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\Patlesson04\\PatLesson04\\PatLesson04.csproj",
+        "projectUniqueName": "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\PatLesson04\\PatLesson04\\PatLesson04.csproj",
         "projectName": "PatLesson04",
-        "projectPath": "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\Patlesson04\\PatLesson04\\PatLesson04.csproj",
+        "projectPath": "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\PatLesson04\\PatLesson04\\PatLesson04.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "D:\\Study\\Năm 3 Kỳ 1\\Lập Trình Web\\LTWeb_PAT\\PatLesson04\\PatLesson04\\obj\\",
         "projectStyle": "PackageReference",
