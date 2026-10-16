@@ -54,8 +54,7 @@
               "RelativeToolTip": "PatLesson07Annotation\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-28T11:32:56.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T11:32:56.044Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "PatLesson07Annotation\\Views\\PatMember\\Create.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-28T10:54:39.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T10:54:39.87Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "PatLesson07Annotation\\Views\\PatMember\\Index.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwCEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-28T10:41:23.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T10:41:23.392Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "PatLesson07Annotation\\Models\\PatMember.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T10:31:59.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T10:31:59.362Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "PatLesson07Annotation\\Controllers\\PatMemberController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-28T10:31:42.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-28T10:31:42.294Z"
             }
           ]
         }

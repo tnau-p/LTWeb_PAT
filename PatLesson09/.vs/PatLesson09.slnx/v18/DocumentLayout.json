@@ -1,0 +1,283 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\areas\\admins\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\areas\\admins\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\areas\\admins\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\areas\\admins\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\areas\\admins\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\areas\\admins\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\areas\\admins\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\areas\\admins\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\areas\\admins\\views\\shared\\_admins.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\areas\\admins\\views\\shared\\_admins.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\areas\\admins\\views\\shared\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\areas\\admins\\views\\shared\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\areas\\admins\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\areas\\admins\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\patlesson09.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\patlesson09.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\views\\shared\\_main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\views\\shared\\_main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson09\\patlesson09\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCCC8359-351F-4F3D-8643-3756ED24AB22}|PatLesson09\\PatLesson09.csproj|solutionrelative:patlesson09\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Areas\\Admins\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "PatLesson09\\Areas\\Admins\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:42:11.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "PatLesson09\\Areas\\Admins\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "PatLesson09\\Areas\\Admins\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T14:41:46.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Areas\\Admins\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "PatLesson09\\Areas\\Admins\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:39:34.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Program.cs",
+              "RelativeDocumentMoniker": "PatLesson09\\Program.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Program.cs",
+              "RelativeToolTip": "PatLesson09\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T14:34:38.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "PatLesson09\\Areas\\Admins\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "PatLesson09\\Areas\\Admins\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T14:33:24.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Shared\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Areas\\Admins\\Views\\Shared\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Shared\\_ViewStart.cshtml",
+              "RelativeToolTip": "PatLesson09\\Areas\\Admins\\Views\\Shared\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:26:21.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Shared\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Areas\\Admins\\Views\\Shared\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Shared\\_ViewImports.cshtml",
+              "RelativeToolTip": "PatLesson09\\Areas\\Admins\\Views\\Shared\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:24:08.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_admins.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Shared\\_admins.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Areas\\Admins\\Views\\Shared\\_admins.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Areas\\Admins\\Views\\Shared\\_admins.cshtml",
+              "RelativeToolTip": "PatLesson09\\Areas\\Admins\\Views\\Shared\\_admins.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:21:44.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PatLesson09",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\PatLesson09.csproj",
+              "RelativeDocumentMoniker": "PatLesson09\\PatLesson09.csproj",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\PatLesson09.csproj",
+              "RelativeToolTip": "PatLesson09\\PatLesson09.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-16T14:20:18.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PatLesson09\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:18:33.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "PatLesson09\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:12:21.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PatLesson09\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:05:38.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_main.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\Shared\\_main.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Views\\Shared\\_main.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\Shared\\_main.cshtml",
+              "RelativeToolTip": "PatLesson09\\Views\\Shared\\_main.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:13:15.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "PatLesson09\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:10:34.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PatLesson09\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson09\\PatLesson09\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PatLesson09\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-16T14:10:35.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

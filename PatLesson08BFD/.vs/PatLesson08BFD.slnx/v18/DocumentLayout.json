@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\models\\orderbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\models\\orderbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\controllers\\orderbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\controllers\\orderbookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\controllers\\orderdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\models\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\models\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\views\\orderbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\views\\orderbooks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\views\\orderbooks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\views\\orderbooks\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\views\\orderbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\views\\orderbooks\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\views\\orderbooks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\views\\orderbooks\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson08bfd\\patlesson08bfd\\views\\orderbooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F5E120F-E738-F303-F0FC-5B5052666798}|PatLesson08BFD\\PatLesson08BFD.csproj|solutionrelative:patlesson08bfd\\views\\orderbooks\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +62,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Views\\OrderBooks\\Edit.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Edit.cshtml",
+              "RelativeToolTip": "PatLesson08BFD\\Views\\OrderBooks\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-12T03:49:44.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Create.cshtml",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Views\\OrderBooks\\Create.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Create.cshtml",
+              "RelativeToolTip": "PatLesson08BFD\\Views\\OrderBooks\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-12T03:49:36.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Details.cshtml",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Views\\OrderBooks\\Details.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Details.cshtml",
+              "RelativeToolTip": "PatLesson08BFD\\Views\\OrderBooks\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-12T03:49:27.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Index.cshtml",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Views\\OrderBooks\\Index.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Index.cshtml",
+              "RelativeToolTip": "PatLesson08BFD\\Views\\OrderBooks\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-12T03:49:16.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderBooksController.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Controllers\\OrderBooksController.cs",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Controllers\\OrderBooksController.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Controllers\\OrderBooksController.cs",
+              "RelativeToolTip": "PatLesson08BFD\\Controllers\\OrderBooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T03:33:23.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderBook.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Models\\OrderBook.cs",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Models\\OrderBook.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Models\\OrderBook.cs",
+              "RelativeToolTip": "PatLesson08BFD\\Models\\OrderBook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T03:03:08.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Views\\OrderBooks\\Delete.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Views\\OrderBooks\\Delete.cshtml",
+              "RelativeToolTip": "PatLesson08BFD\\Views\\OrderBooks\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-12T03:49:50.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookStoreDbContext.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Models\\BookStoreDbContext.cs",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Models\\BookStoreDbContext.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Models\\BookStoreDbContext.cs",
+              "RelativeToolTip": "PatLesson08BFD\\Models\\BookStoreDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T03:08:32.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Models\\Category.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Models\\Category.cs",
+              "RelativeToolTip": "PatLesson08BFD\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T03:05:09.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "PatLesson08BFD\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T03:04:52.248Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -30,7 +204,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "OrderDetailsController.cs",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Controllers\\OrderDetailsController.cs",
+              "RelativeDocumentMoniker": "PatLesson08BFD\\Controllers\\OrderDetailsController.cs",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Controllers\\OrderDetailsController.cs",
+              "RelativeToolTip": "PatLesson08BFD\\Controllers\\OrderDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T02:59:11.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BooksController.cs",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "PatLesson08BFD\\Controllers\\BooksController.cs",
@@ -42,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson08BFD\\PatLesson08BFD\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "PatLesson08BFD\\Controllers\\AccountsController.cs",
