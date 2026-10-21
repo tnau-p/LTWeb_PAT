@@ -1,0 +1,33 @@
+AVERY CHEN — SAMPLE STUDENT RESUME
+Fictional demonstration content. Replace every detail with your own.
+Email: avery@example.com (example only)
+
+PROFILE
+Interaction design student, expected graduation 2027. Interested in research,
+clear interfaces and practical design decisions. Seeking a summer internship.
+
+EDUCATION
+BA, Interaction Design — Northbridge College (fictional), 2024–2027 expected
+Coursework: human-centered design, research methods, visual communication,
+introductory web development.
+
+EXPERIENCE
+Design intern — Common Ground Studio (fictional), June–August 2026
+- Prepared component documentation with a supervising designer.
+- Organized interview notes into themes for team discussion.
+- Explored form layouts and documented design trade-offs.
+
+Volunteer — Student Design Society (fictional), 2025–present
+- Help organize peer critiques and weekly sketching sessions.
+
+PROJECTS
+Campus Path — coursework, team of three, four weeks.
+Planned route observations and designed route-detail screens.
+Pantry Notes — personal concept, two weekends.
+Explored a food journal with illustrative data and clear limitations.
+
+SKILLS
+Interview planning, synthesis, wireframing, prototyping, Figma, HTML, CSS,
+introductory data visualization.
+
+Template: Fieldnotes Student by Colorlib — https://colorlib.com/

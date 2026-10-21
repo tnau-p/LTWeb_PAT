@@ -1,0 +1,13 @@
+Fieldnotes Student — Copyright 2026 Colorlib.
+Original layout, copy, JavaScript and SVG artwork are licensed under Creative
+Commons Attribution 3.0 Unported (CC BY 3.0).
+https://creativecommons.org/licenses/by/3.0/legalcode
+Provide appropriate credit to Colorlib (https://colorlib.com/), link to the
+license, and indicate changes. The footer supplies the Colorlib credit.
+
+Third-party files retain their own licenses:
+- Bootstrap 5.3.8 CSS: MIT, assets/vendor/BOOTSTRAP-LICENSE.txt
+- Inter font: SIL Open Font License, assets/fonts/INTER-LICENSE.txt
+These dependencies were reused from Colorlib's Jackson release. No Jackson
+photography, template stylesheet, PHP mail handler or JavaScript is included.
+All portfolio identities, institutions and results are fictional sample content.

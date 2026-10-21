@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PatLesson10",
+    "\\PatLesson10\\PatLesson10",
+    "\\PatLesson10\\PatLesson10\\Views",
+    "\\PatLesson10\\PatLesson10\\Views\\Shared",
+    "\\PatLesson10\\PatLesson10\\wwwroot",
+    "\\PatLesson10\\PatLesson10\\wwwroot\\css"
   ],
+  "SelectedNode": "\\PatLesson10\\PatLesson10\\Views\\Shared\\MyLayout.cshtml",
   "PreviewInSolutionExplorer": false
 }

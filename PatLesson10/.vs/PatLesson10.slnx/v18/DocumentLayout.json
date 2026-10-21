@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\views\\shared\\topnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\views\\shared\\topnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8DD733B-B806-4CFD-BFAC-7E95F18A6348}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|d:\\study\\n\u0103m 3 k\u1EF3 1\\l\u1EADp tr\u00ECnh web\\ltweb_pat\\patlesson10\\patlesson10\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E55D29-CCFD-453A-5309-E83D8A3D26CC}|PatLesson10\\PatLesson10.csproj|solutionrelative:patlesson10\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,6 +59,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TopNav.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Shared\\TopNav.cshtml",
+              "RelativeDocumentMoniker": "PatLesson10\\Views\\Shared\\TopNav.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Shared\\TopNav.cshtml",
+              "RelativeToolTip": "PatLesson10\\Views\\Shared\\TopNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T02:24:00.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PatLesson10\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PatLesson10\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T01:59:00.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyLayout.cshtml",
+              "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Shared\\MyLayout.cshtml",
+              "RelativeDocumentMoniker": "PatLesson10\\Views\\Shared\\MyLayout.cshtml",
+              "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Shared\\MyLayout.cshtml",
+              "RelativeToolTip": "PatLesson10\\Views\\Shared\\MyLayout.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-21T01:57:21.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "PatLesson10\\Views\\Student\\Create.cshtml",
@@ -59,20 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "PatLesson10\\Views\\Student\\Index.cshtml",
               "ToolTip": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "PatLesson10\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwDAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-10-21T01:12:19.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "PatLesson10\\Controllers\\StudentController.cs",
@@ -80,12 +131,11 @@
               "RelativeToolTip": "PatLesson10\\Controllers\\StudentController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAqwD8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T00:59:37.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T00:59:37.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Models\\Student.cs",
               "RelativeDocumentMoniker": "PatLesson10\\Models\\Student.cs",
@@ -93,12 +143,11 @@
               "RelativeToolTip": "PatLesson10\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T00:55:05.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T00:55:05.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Branch.cs",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Models\\Branch.cs",
               "RelativeDocumentMoniker": "PatLesson10\\Models\\Branch.cs",
@@ -106,12 +155,11 @@
               "RelativeToolTip": "PatLesson10\\Models\\Branch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T00:54:25.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T00:54:25.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Gender.cs",
               "DocumentMoniker": "D:\\Study\\N\u0103m 3 K\u1EF3 1\\L\u1EADp Tr\u00ECnh Web\\LTWeb_PAT\\PatLesson10\\PatLesson10\\Models\\Gender.cs",
               "RelativeDocumentMoniker": "PatLesson10\\Models\\Gender.cs",
@@ -119,8 +167,7 @@
               "RelativeToolTip": "PatLesson10\\Models\\Gender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T00:52:47.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T00:52:47.253Z"
             }
           ]
         }
