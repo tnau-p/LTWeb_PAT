@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatLesson07Annotation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e388cab5581b28af9366f38ec22e77b03cbc3abd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f8de054788690387227929fa8ca9104addca20c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatLesson07Annotation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatLesson07Annotation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

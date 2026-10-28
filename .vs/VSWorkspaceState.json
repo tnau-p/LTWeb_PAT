@@ -1,13 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PatLesson10",
     "\\PatLesson10\\PatLesson10",
     "\\PatLesson10\\PatLesson10\\Views",
     "\\PatLesson10\\PatLesson10\\Views\\Shared",
     "\\PatLesson10\\PatLesson10\\wwwroot",
-    "\\PatLesson10\\PatLesson10\\wwwroot\\css"
+    "\\PatLesson10\\PatLesson10\\wwwroot\\css",
+    "\\PatLesson10_Lab",
+    "\\PatLesson10_Lab\\PatLesson10_Lab"
   ],
-  "SelectedNode": "\\PatLesson10\\PatLesson10\\Views\\Shared\\MyLayout.cshtml",
+  "SelectedNode": "\\PatLesson10_Lab\\PatLesson10_Lab.slnx",
   "PreviewInSolutionExplorer": false
 }
